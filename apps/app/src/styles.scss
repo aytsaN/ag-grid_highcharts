@@ -1,0 +1,9 @@
+/* Core Grid Styles */
+@import 'ag-grid-community/styles/ag-grid.css';
+/* The Theme Styles */
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+
+.container {
+  padding: 20px;
+  font-family: sans-serif;
+}

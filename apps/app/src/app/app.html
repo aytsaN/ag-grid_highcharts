@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>My Dashboard</h2>
+
+  <highcharts-chart
+      [constructorType]="chartConstructor"
+      [options]="chartOptions"
+      class="chart"
+    />
+
+  <hr />
+
+  <ag-grid-angular
+    class="ag-theme-quartz"
+    style="height: 400px; width: 100%"
+    [rowData]="rowData"
+    [columnDefs]="colDefs"
+    [pagination]="true"
+  >
+  </ag-grid-angular>
+</div>
